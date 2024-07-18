@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Room Cards</title>
+    <style>
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: url("images/240_F_98761648_uLogNnSlCfVS0RmsVlXf7DLau3mS0vGk.jpg");
+}
+
+.card {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background-color: #fff;
+    margin: 10px;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.content {
+    padding: 15px;
+}
+
+.title {
+    font-size: 1.5em;
+    margin: 0 0 10px;
+}
+
+.description {
+    font-size: 1em;
+    color: #555;
+    margin: 0 0 20px;
+}
+
+.button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img src="images/adjoin.jpg" alt="Hotel Room" class="img">
+        <div class="content">
+            <h3 class="title">Adjoining Room</h3>
+            <p class="description">An adjoining room shares a wall with another hotel room and is connected by a door.</p>
+            <button class="button"><a href="book.html">Book Now</a></button>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="images/adjcent.jpg" alt="Hotel Room" class="img">
+        <div class="content">
+            <h3 class="title">Adjacent room</h3>
+            <p class="description">An adjacent room is very close to another room but does not share a common wall with it.</p>
+            <button class="button"><a href="book.html">Book Now</a></button>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="images/cobarna.jpg" alt="Hotel Room" class="img">
+        <div class="content">
+            <h3 class="title">Cabana</h3>
+            <p class="description">A cabana is suited away from the main hotel building, in the vicinity of a swimming pool or sea beach. </p>
+            <button class="button"><a href="book.html">Book Now</a></button>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="images/duplex.jpg" alt="Hotel Room" class="img">
+        <div class="content">
+            <h3 class="title">Duplex</h3>
+            <p class="description">A duplex comprises two-room situated on different floors, which are connected by an internal staircase.</p>
+            <button class="button"><a href="book.html">Book Now</a></button>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="images/bed-bedroom-furniture-headboard-279746-980x621.jpg" alt="Hotel Room" class="img">
+        <div class="content">
+            <h3 class="title">Double Room</h3>
+            <p class="description">A double room has one double bed for double occupancy. The size of a double bed is 4.5feet to 6 feet.</p>
+            <button class="button"><a href="book.html">Book Now</a></button>
+        </div>
+    </div>
+</body>
+</html>

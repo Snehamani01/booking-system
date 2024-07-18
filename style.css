@@ -1,0 +1,80 @@
+body{
+    font-family: verdana;
+    background: url("images/Bab Al Shams, A Rare Finds Desert Resort, Dubai 2_bas-dining-zala-indoor-seating-wide_013.webp") no-repeat;
+    background-size: cover; 
+    display: flex; 
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    position: absolute;
+    background-color: #7a8382;
+    width: 100%;
+    color: white;
+}
+header h1{
+    position: absolute;
+    margin-top: 20px;
+    left: 5%;
+}
+header{
+    height: 10vh;
+}
+.head{
+    position: absolute;
+    width: 100%;
+    padding-top: 20px;
+
+   
+}
+.head a{
+    position: relative;
+    left:65%;
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+    margin-right: 20px;
+           
+}
+.head a:hover{
+    transform: scale(1.1);
+    background-color: rgb(11, 22, 27);
+}
+.text{
+    padding: 250px;
+    margin-left: 250px;
+}
+.text h5{
+    font-size: 35px;
+    color: rgb(255, 255, 255); 
+}
+.text h3{
+    font-size: 50px;
+    color: blueviolet;
+}
+.text p{
+    font-style: italic;
+    font-size: 40px;
+    color: rgb(229, 17, 17);
+}
+.btn button{
+   font-size: larger;
+   padding: 5px;
+   color: black;
+   border-radius: 20px;
+   background-color: #647b8d;  
+}
+footer{
+    height: 10vh;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    color: white;
+}
+footer h2{
+    position: absolute;
+    left: 25%;
+    margin: 120px;
+}
